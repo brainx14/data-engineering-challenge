@@ -10,7 +10,7 @@ La solución fue desarrollada en PySpark, ya que es un framework ampliamente com
 
 - **S3**: Almacenamiento centralizado de los archivos de datos (Data Lake).
 - **AWS Glue**: Procesamiento de datos en PySpark (ETL/ELT serverless).
-- **Step Functions**: Orquestación de los procesos de ingestión, transformación y carga.
+- **Step Functions**: Orquestación de los procesos de ingesta, transformación y carga.
 - **Athena**: Consulta SQL sobre los datos almacenados en S3 de manera serverless.
 - **AWS Glue Data Catalog**: Gobierno y catalogación de los datasets.
 - **IAM**: Control de accesos y permisos a nivel granular para cada servicio y usuario.
